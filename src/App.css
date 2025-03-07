@@ -1,0 +1,82 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.App {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 280px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #2e302d;
+}
+
+input {
+    padding: 7.5px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-top: 5px;
+}
+
+input:active {
+    border: 1px solid #913ea8;
+}
+
+button {
+    margin-top: 25px;
+    padding: 10px;
+    border: none;
+    background-color: #913ea8;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: 0.5s ease-in-out;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+
+li, span {
+    margin-top: 6px ;
+    margin-bottom: 25px;
+}
+
+li button {
+    background-color: #913ea8;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li button:hover {
+    opacity: 0.8;
+    transition: 0.5s ease-in-out;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #913ea8;
+}
